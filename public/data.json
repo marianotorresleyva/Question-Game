@@ -1,0 +1,42 @@
+{
+    "1": {
+        "Que es un arbol?": {
+            "answer a": false,
+            "answer b": false,
+            "answer c": true,
+            "answer d": false
+        }
+    },
+    "2": {
+        "Donde esta la pizza?": {
+            "answer a": false,
+            "answer b": false,
+            "answer c": true,
+            "answer d": false
+        }
+    },
+    "3": {
+        "Cuantas neuronas tenemos?": {
+            "answer a": true,
+            "answer b": false,
+            "answer c": false,
+            "answer d": false
+        }
+    },
+    "4": {
+        "Donde esta tu orgullo guerrero?": {
+            "answer a": false,
+            "answer b": false,
+            "answer c": false,
+            "answer d": true
+        }
+    },
+    "5": {
+        "Donde se botan los plasticos": {
+            "answer a": false,
+            "answer b": true,
+            "answer c": false,
+            "answer d": false
+        }
+    }
+}
