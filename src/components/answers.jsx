@@ -1,5 +1,5 @@
-import { Box, Button, Container } from "@mui/material";
-import axios from "axios";
+import { Button, Container } from "@mui/material";
+
 import { useEffect, useState } from "react";
 
 export default function Answers(props) {

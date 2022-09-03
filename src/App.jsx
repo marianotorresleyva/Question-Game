@@ -1,22 +1,32 @@
 import { useState } from "react";
+import { Button } from "@mui/material";
 import Question from "./components/question.jsx";
-import "./App.css";
 import LinearProgressWithLabel from "./components/linearProgress.jsx";
 import Answers from "./components/answers.jsx";
-import { Button } from "@mui/material";
+import BasicModal from "./components/modal.jsx";
+import "./App.css";
 
 function App() {
     let [count, setCount] = useState(0);
     let [disable, setDisable] = useState(false);
-
+    const [open, setOpen] = useState(false);
+    const handleClose = () => setOpen(false);
     const fromClick = () => {
         if (count >= 4) {
             setDisable(true);
+            setOpen(true);
             return;
         }
         setCount((count += 1));
     };
-
+    function reboot(e) {
+        e.preventDefault();
+        let cli = document.getElementById("client").value;
+        alert(cli);
+        setCount(0);
+        setOpen(false);
+        setDisable(false);
+    }
     return (
         <div className="App">
             <LinearProgressWithLabel value={count} />
@@ -25,6 +35,7 @@ function App() {
             <Button variant="contained" disabled={disable} onClick={fromClick}>
                 Next
             </Button>
+            <BasicModal open={open} handleClose={handleClose} reboot={reboot} />
         </div>
     );
 }
