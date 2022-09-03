@@ -1,42 +1,42 @@
 {
     "1": {
         "Que es un arbol?": {
-            "answer a": false,
-            "answer b": false,
-            "answer c": true,
-            "answer d": false
+            "Cobijo": false,
+            "Alimento": false,
+            "Planta": true,
+            "Invertebrado": false
         }
     },
     "2": {
         "Donde esta la pizza?": {
-            "answer a": false,
-            "answer b": false,
-            "answer c": true,
-            "answer d": false
+            "En tu estomago": false,
+            "En la pizzeria": false,
+            "En la caja": true,
+            "En donde no la encuentren": false
         }
     },
     "3": {
         "Cuantas neuronas tenemos?": {
-            "answer a": true,
-            "answer b": false,
-            "answer c": false,
-            "answer d": false
+            " 100 mil millones de neuronas": true,
+            "Tantas como estrellas en el firmamento": false,
+            "Tantas como granos de arena": false,
+            "Muchas": false
         }
     },
     "4": {
-        "Donde esta tu orgullo guerrero?": {
-            "answer a": false,
-            "answer b": false,
-            "answer c": false,
-            "answer d": true
+        "Quien dijo la frase: Donde esta tu honor basura?": {
+            "Tu padre": false,
+            "Un dibujo": false,
+            "Tu amigo": false,
+            "Un soldado": true
         }
     },
     "5": {
         "Donde se botan los plasticos": {
-            "answer a": false,
-            "answer b": true,
-            "answer c": false,
-            "answer d": false
+            "En la calle": false,
+            "En el bote de reciclaje": true,
+            "En todos lados": false,
+            "En la casa de tu ex": false
         }
     }
 }
